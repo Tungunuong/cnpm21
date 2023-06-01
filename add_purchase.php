@@ -76,8 +76,8 @@
           <div class="col col-md-2 form-group">
             <label class="font-weight-bold" for="paytype">Hình Thức Thanh Toán :</label>
             <select id="payment_type" name="paytype" class="form-control">
-              <option value="Cash Payment">Trả Tiền Trực Tiếp</option>
-              <option value="Net Banking">Thanh Toán trực Tiếp</option>
+              <option value="Cash Payment">Thanh toán trực tiếp</option>
+              <option value="Net Banking">Thanh Toán chuyển khoản</option>
 
             </select>
           </div>
@@ -106,10 +106,10 @@
           <div class="col col-md-2">Tên Thuốc</div>
           <div class="col col-md-1">Đóng Gói</div>
           <div class="col col-md-2">Số Lô</div>
-          <div class="col col-md-1">Ngày Bán (mm/yy)</div>
+          <div class="col col-md-1">Thời gian bắt đầu bán (mm/yy)</div>
           <div class="col col-md-1">Số Lượng</div>
           <div class="col col-md-1">MRP</div>
-          <div class="col col-md-1">Đánh Giá</div>
+          <div class="col col-md-1">Giá nhập</div>
           <div class="row col col-md-3">
             <div class="col col-md-7">Giá</div>
             <div class="col col-md-5">Hành Động</div>

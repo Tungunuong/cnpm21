@@ -33,7 +33,7 @@
 
           <div class="row col col-md-12">
             <div class="col col-md-12 form-group">
-              <label class="font-weight-bold" for="old_password">Mật Khẩu Cũ :</label>
+              <label class="font-weight-bold" for="old_password">Mật khẩu cũ :</label>
               <input id="old_password" type="text" class="form-control" onblur="checkAdminPassword(this.value, 'old_password_error');">
               <code class="text-danger small font-weight-bold float-right mb-2" id="old_password_error" style="display: none;"></code>
             </div>
@@ -41,7 +41,7 @@
 
           <div class="row col col-md-12">
             <div class="col col-md-12 form-group">
-              <label class="font-weight-bold" for="password">Mật Khẩu Mới :</label>
+              <label class="font-weight-bold" for="password">Mật khẩu mới :</label>
               <input id="password" type="text" class="form-control" style="max-height: 100px;">
               <code class="text-danger small font-weight-bold float-right mb-2" id="password_error" style="display: none;"></code>
             </div>
@@ -49,7 +49,7 @@
 
           <div class="row col col-md-12">
             <div class="col col-md-12 form-group">
-              <label class="font-weight-bold" for="confirm_password">Nhập Lới Mật Khẩu Mới :</label>
+              <label class="font-weight-bold" for="confirm_password">Nhập lại mật khẩu mới :</label>
               <input id="confirm_password" type="password" class="form-control">
               <code class="text-danger small font-weight-bold float-right mb-2" id="confirm_password_error" style="display: none;"></code>
             </div>
@@ -58,7 +58,7 @@
           <div class="row col col-md-12 m-auto" id="change">
             <div class="col col-md-4 form-group float-right"></div>
             <div id="change_button" class="col col-md-4 form-group float-right">
-              <button class="btn btn-warning form-control font-weight-bold" onclick="changePassword();">Thay Đổi Mật Khẩu</button>
+              <button class="btn btn-warning form-control font-weight-bold" onclick="changePassword();">Thay đổi</button>
             </div>
             <div id="password_button" class="col col-md-4 form-group float-right">
               <a href="my_profile.php" class="btn btn-primary form-control font-weight-bold">Profile</a>
